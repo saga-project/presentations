@@ -1,0 +1,55 @@
+
+SAGA Tutorial Structure
+-----------------------
+
+180 min total
+  - 150 min for slides, as below
+  -  30 min for delays, hands-on-tutorial, questions, feedback
+
+-----------------------
+
+(20 min)  Introduction    
+          [introduction.pdf]
+
+
+(60 min)  API walkthrough + tutorial examples
+          [api.pdf]
+
+          - standardization overview
+          - API structure
+          - API walkthrough         (look & feel, functional packages)
+          - software components
+            - C++ API               (saga-core)
+            - middlewars bindings   (saga-adaptor-xyz)
+            - language bindings     (saga-binding-python)
+            - tools etc
+              - command line tools
+              - make system support
+              - installation tools
+              - configuration files (*.ini)
+              - environment settings, runtime behaviour, debugging, etc
+
+
+(30 min)  Installation and Deployments 
+          [installation.pdf]
+
+          - code packages and dependencies
+          - configure ; make ; make install
+          - mephisto
+          - notable deployments
+
+
+(30 min)  adaptor development
+          [adaptors.pdf]
+
+          - API vs. CPI
+          - adaptor generator
+          - complete exmaple
+
+
+(10 min)  Closing
+          [conclusion.pdf]
+         
+          - overview over active SAGA projects
+          - contact points, references, feedback
+

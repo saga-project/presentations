@@ -1,0 +1,51 @@
+Introduction to BigJob -- A SAGA-based Interoperable, Extensible and
+Scalable Pilot-Job for XSEDE
+
+By the SAGA team: Andre Luckow, Andre Merzky, Pradeep Mantha, Melissa
+Romanus, Ole Weidner, Shantenu Jha
+
+XSEDE ECSS: Yaakoub El-Khamra (TACC)
+
+Pilot-Jobs have proven to be a successful abstractions which providing
+first-class support for Multiple Jobs and Application-level
+Scheduling.  The SAGA-based Pilot-Job, known as BigJob [1] provides
+the unique capability to use Pilot-Jobs on the highest-performing
+machines as well as collectively on distributed
+cyberinfrastructure. It supports very large scale parallel jobs as
+well as high-throughput of many smaller jobs. In addition to the
+number and range of job sizes that it supports, what makes BigJob
+unique amongst all Pilot-Jobs, is its ability to be programmatically
+extended to support a range of "simple workflows", provide
+application-level control of both the Pilots and the tasks assigned to
+the Pilot-Job, and its interoperability over all XSEDE and OSG
+platforms.  Last but not least, BigJob is not "just another tool" but
+is an implementation of a theoretically rigorous and conceptual model
+for Pilot-Abstractions (referred to as the P* Model).  In other words
+the SAGA approach elevates Pilot-Jobs to a fundamental abstraction for
+distributed and high-performance computing.
+
+BigJob has been deeply integrated on all major XSEDE resources and
+supports thousand of jobs (millions of SUs). BigJob has been at the
+heart of two recent and successful ECSS projects. It has been used by
+a wide range of application types -- ranging from Computational
+Chemistry applications (uncoupled ensembles) to loosely coupled
+applications.
+
+This half-day tutorial will bring together SAGA team members, XSEDE
+Staff and XSEDE end-users (scientists using BigJob) to deliver:
+ -  The basic concepts behind Pilot-Jobs
+ -  Several Science Exemplars that routinely use BigJob on XSEDE for extreme-scale science
+ -  Introduction on how to use BigJob
+ -  How to use BigJob on XSEDE?
+ -  How to use BigJob on OSG? And collectively between OSG and XSEDE
+ -  How to program and customize BigJob for your needs;  Building Frameworks using BigJob
+ -  Advanced Concepts and Application level Scheduling using BigJob
+
+This tutorial will provide a session with hands-on training covering
+each of the above.
+
+Requirements: Users will need to bring their laptop. Wireless
+connectivity will be required. Accounts on XSEDE machines will be
+provided.
+
+[1] https://github.com/saga-project/BigJob/wiki 
