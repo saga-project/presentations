@@ -1,6 +1,44 @@
 http://research.nesc.ac.uk/node/917
 
 We have 20 minutes on the 19th
-We have 30 minutes to talk on the 20th
-We have 45 minutes to show-tell-handson on the 20th
+
+Title: Case Studies in Running Many Simulations on Many Clusters,
+Clouds and Supercomputers Speaker: Shantenu Jha, Rutgers University
+
+There are several important science and engineering problems that
+require the coordinated execution of multiple simulations at scale.
+Some common scenarios include but are not limited to, "an ensemble of
+tasks", "loosely-­‐coupled simulations of tightly-­‐coupled
+simulations" or "multi-­‐component multi-­‐physics simulations".  We
+will discuss representative scalable examples from each of the
+categories
+
+We have 30 minutes to talk on the 20th:
+
+Title: A Brief Introduction to SAGA and Bigjob, Speaker: Shantenu Jha,
+Rutgers University The tools and capabilities to support coordinated
+multiple simulations are limited.  However, a promising way to
+overcome this common limitation is the use of a Pilot-­‐Job, which can
+be defined as a container or placeholder job to provide multi-­‐level
+scheduling via an application-­‐level scheduling overlay over the
+system scheduler.  We discuss both the theory and practice of
+Pilot-­‐Jobs.  Specifically, we present "BigJob" as a SAGA-­‐based
+extensible, interoperable and scalable Pilot-­‐Job implementation.  We
+then discuss several science problems that have/are using BigJob to
+execute multiple simulations at unprecedented scales on a range of
+supercomputers and distributed supercomputing infrastructure such as
+XSEDE.
+
+
+We have 45 minutes to show-tell-handson on the 20th:
+
+The RADICAL team at Rutgers provide scalable implementation of SAGA
+and BigJob in Python.  In this exercise-­‐based tutorial, we will
+provide a hands on introduction to SAGA-­‐python and a SAGA-­‐based
+Bigjob.  At the end of this tutorial, students will be able to use
+SAGA to submit remote jobs to a variety of heterogeneous resources,
+and will be able to use the SAGA-­‐based Pilot-­‐Job (BigJob) to
+execute a "bag-­‐ of tasks" and "loosely-­‐coupled tasks" , amongst
+other simple execution scenarios.
+
 
