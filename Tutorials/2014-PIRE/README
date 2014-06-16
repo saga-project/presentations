@@ -1,0 +1,54 @@
+"Tools for Development and Support of Large-Scale Data-Intensive
+Applications"
+
+- Outline of 90 minute presentation
+
+I. Talk [45 minutes]
+
+- Motivation and use cases [10 minutes]
+
+There are several important science and engineering problems that
+require the coordinated execution of multiple tasks at scale.  Some
+common scenarios include but are not limited to, "an ensemble of
+tasks", "loosely-‐coupled simulations of tightly-coupled simulations"
+or "multi-‐component multi-physics simulations".  We will discuss
+representative scalable examples from each of the categories
+
+
+- "A Tale of Two Architectures" including OGRES [15 minutes]
+- Kmeans as an example of Task-level parallelism [5 minutes]
+- RADICAL-Cybertools [15 minutes]
+  -- SAGA
+  -- RADICAL-Pilot
+
+The tools and capabilities to support coordinated multiple tasks are
+limited.  However, a promising way to overcome this common limitation
+is the use of a Pilot-‐Job, which can be defined as a container or
+placeholder job to provide multi-‐level scheduling via an
+application-‐level scheduling overlay over the system scheduler.  We
+discuss both the theory and practice of Pilot-Jobs.  Specifically, we
+present "RADICAL-Pilot" as a SAGA‐based extensible, interoperable and
+scalable Pilot-‐Job implementation.  We then discuss several science
+problems that have/are using RADICAL-Pilot to execute multiple
+simulations at unprecedented scales on a range of supercomputers and
+distributed supercomputing infrastructure such as XSEDE.
+
+II. Hands-On Session [45 minutes]
+
+ - We will use DAS Machines.
+
+ - SAGA
+ - Kmeans
+ - RADICAL-Pilot to run N Kmeans
+ - Loosely-Coupled task
+
+ - Exercise: MapReduce pattern for Kmeans 
+
+In this exercise-based tutorial, we will provide a hands on
+introduction to RADICAL-SAGA and Pilot.  At the end of this tutorial,
+students will be able to use SAGA to submit remote jobs to a variety
+of heterogeneous resources, and will be able to use the RADICAL-Pilot
+to execute a "bag of tasks" (of Kmeans) and "loosely‐coupled tasks" ,
+amongst other simple execution scenarios.
+
+
